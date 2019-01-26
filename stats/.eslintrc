@@ -1,0 +1,30 @@
+{
+  "extends": "airbnb",
+  "globals": {
+    "$": true,
+    "window": true,
+    "document": true,
+    "alert": true,
+    "jsPlumb": true,
+    "confirm": true,
+    "FileReader": true
+  },
+  "overrides": [
+    {
+      "files": ["*"],
+      "rules": {
+        "lines-between-class-members": ["error", "always", {  "exceptAfterSingleLine": true }],
+        "import/prefer-default-export": "off",
+        "no-alert": "off",
+        "guard-for-in": "off",
+        "no-restricted-syntax": "off",
+        "no-restricted-globals": "off",
+        "no-param-reassign": "off",
+        "import/no-unresolved": "off",
+        "prefer-destructuring": "off",
+        "quote-props": ["error", "consistent-as-needed"],
+        "no-console": "off"
+      }
+    }
+  ]
+}
